@@ -56,18 +56,30 @@
 
 ---
 
-### 2B. Descriptive Statistics Primer (1 wk)
-- **Key Topics**
-  - Mean, median, mode, standard deviation.
-  - Histograms, box plots, scatter plots.
-- **Resources**
-  - Khan Academy “Statistics and Probability”.
-  - *OpenStax Introductory Statistics* Ch 2.
-- **Proof-of-Mastery**
-  - Create and analyze one real-world dataset (50+ data points).
+### 2B. Descriptive Statistics Primer (1 wk)
+- **Key Topics**  
+  - Mean, median, mode, standard deviation.  
+  - Histograms, box plots, scatter plots.  
+  - **Error bars & uncertainty propagation (intro)** ⚙️  
+- **Resources**  
+  - Khan Academy “Statistics & Probability”.  
+  - *OpenStax Introductory Statistics* Ch 2.  
+- **Proof‑of‑Mastery**  
+  - Criar + analisar um dataset real (≥ 50 pontos) **com propagação de erro** usando Python.
 
 ---
+### 2C. Error Analysis & Experimental Methods (1 wk)
+- **Key Topics**  
+  - Tipos de erro: sistemático × aleatório.  
+  - Propagação de incertezas (regra da soma, produto).  
+  - Metrologia básica, significância de dígitos.  
+- **Resources**  
+  - *Taylor, “An Introduction to Error Analysis”, cap. 1‑3*.  
+  - Laboratórios virtuais PhET (“Measurement”).  
+- **Proof‑of‑Mastery**  
+  - Relatório curto: medir g usando vídeo + Tracker; estimar σ₍g₎.
 
+---
 ### 3A. Differential Calculus (3 wks)
 - **Key Topics**
   - Limits and continuity.
@@ -86,11 +98,13 @@
   - Antiderivatives and indefinite integrals.
   - Definite integrals and the Fundamental Theorem of Calculus.
   - Area under curves.
+  - **Numérico:** regra do trapézio, Simpson.
 - **Resources**
   - Khan Academy “Integral Calculus”.
   - *OpenStax Calculus Volume 1* Ch 4-5.
 - **Proof-of-Mastery**
   - Write Python script to numerically approximate area under curve using Riemann sums.
+  - Script Python: Riemann, trapézio, Simpson; comparar erros.
 
 ---
 
@@ -106,7 +120,17 @@
   - Plot gradient fields of simple functions with Python (`matplotlib`, `numpy`).
 
 ---
+### NM. Computing & Numerical Methods (1 wk)
+- **Key Topics**  
+  - Python scientific stack: `numpy`, `scipy`, `matplotlib`.  
+  - Ajuste de curvas (least‑squares), métodos de raiz (Newton).  
+- **Resources**  
+  - *Kiusalaas, “Numerical Methods in Engineering with Python” cap. 1‑3*.  
+  - Docs SciPy “Getting Started”.  
+- **Proof‑of‑Mastery**  
+  - Resolver `y' = y – x²` numericamente e comparar com solução analítica.
 
+---
 ### LA. Linear Algebra (2 wks)
 - **Key Topics**
   - Vectors and matrices: addition, multiplication.
@@ -132,7 +156,18 @@
   - Solve 5 real-world ODE problems and verify solutions graphically.
 
 ---
+### MMA. Advanced Mathematical Methods (2 wks)
+- **Key Topics**  
+  - Séries de Fourier & transformada de Laplace.  
+  - PDEs clássicas: onda, calor (separação de variáveis).  
+  - Operadores lineares & ortogonalidade.  
+- **Resources**  
+  - *Boas, “Mathematical Methods in the Physical Sciences” sec. 7‑13*.  
+  - MIT OpenCourseWare 18.303.  
+- **Proof‑of‑Mastery**  
+  - Resolver PDE 1‑D do calor com separação de variáveis; plotar evolução em Python.
 
+---
 ### 5A. Physics I – Mechanics (4 wks)
 - **Key Topics**
   - Kinematics: motion graphs, projectiles.
@@ -171,7 +206,30 @@
   - Simulate interference patterns using simple Python plotting.
 
 ---
+### 5D. Thermodynamics & Statistical Physics (2 wks)
+- **Key Topics**  
+  - Leis 0‑III da termodinâmica.  
+  - Ciclos de Carnot, eficiência.  
+  - Micro × macro: distribuição de Boltzmann.  
+- **Resources**  
+  - *OpenStax University Physics Volume 2* Ch 15‑20.  
+  - *Schroeder, “Thermal Physics” cap. 1‑3*.  
+- **Proof‑of‑Mastery**  
+  - Calcular eficiência de um ciclo Otto real; comparar com limite de Carnot.
 
+---
+### 5E. Modern Physics (2 wks)
+- **Key Topics**  
+  - Relatividade restrita (tempo de dilatação, contracção).  
+  - Dualidade onda‑partícula, efeito fotoelétrico.  
+  - Modelos atômicos (Bohr → mecânica quântica elementar).  
+- **Resources**  
+  - *OpenStax University Physics Volume 3* Ch 6‑10.  
+  - Feynman Lectures Vol I § 37‑38.  
+- **Proof‑of‑Mastery**  
+  - Relatório + Python: ajustar curva de Frank‑Hertz e extrair energia de excitação.
+
+---
 ### Capstone Project (2 wks)
 - **Goal**
   - Integrate mathematics, physics, and programming.
