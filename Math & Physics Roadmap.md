@@ -20,9 +20,9 @@
 - [ ] [[Module Details#2B. Descriptive Statistics Primer (1 wk)|Descriptive Statistics Primer]] 25 Jun – 02 Jul 2025
 
 ### Tier 3 — Calculus Core
-- [ ] **3A. Differential Calculus** (3 wks) *(02 Jul – 23 Jul 2025)*
-- [ ] **3B. Integral Calculus** (2 wks) *(23 Jul – 06 Aug 2025)*
-- [ ] **3C. Multivariable Calculus (∂, ∬)** (2 wks) *(06 Aug – 20 Aug 2025)*
+- [ ] [[Module Details#3A. Differential Calculus (3 wks)|Differential Calculus]] 02 Jul – 23 Jul 2025
+- [ ] [[Module Details#3B. Integral Calculus (2 wks)|Integral Calculus]] 23 Jul – 06 Aug 2025
+- [ ] [[Module Details#3C. Multivariable Calculus (2 wks)|Multivariable Calculus (∂, ∬)]] 06 Aug – 20 Aug 2025
 
 ### Tier 4 — Linear Algebra & ODEs (parallel tracks)
 - [ ] **LA. Linear Algebra** (2 wks) *(20 Aug – 03 Sep 2025)*
